@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Technical Challenge</h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Resultado">
+            <div class="form-group">
+                <label class="control-label"> Informe um número</label>
+                <input id="numero" name="numero" class="form-control" />
+            </div>
+           
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
