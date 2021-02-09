@@ -10,7 +10,7 @@ namespace TechnicalChallenge.Codes
     {
         static List<Numeros> numeros = new List<Numeros>();
 
-        private static bool IsNumeroPrimo(int numero)
+        public static bool IsNumeroPrimo(int numero)
         {
             int divisores = 0;
             for (int i = 1; i <= numero; i++)
